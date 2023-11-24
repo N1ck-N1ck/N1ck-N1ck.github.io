@@ -1,0 +1,99 @@
+*{
+margin: 0;
+box-sizing: border-box;
+}
+.section{
+width: 1168px;
+height: 200px;
+margin: 0px auto;
+}
+
+.head{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 80px 0px; 
+}
+
+.man{
+width: 100%;
+margin-bottom: 60px;
+
+}
+
+.description{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+    margin-bottom: 80px;
+    margin-left: 30px;
+    
+}
+
+.description p{
+    width:45%;
+    color: #000;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+
+}
+
+.container{
+    background-color: #e4e2e2;
+    color: #000;
+font-family: 'Roboto',sans-serif;
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px;
+padding: 37px 50px;
+border-radius: 20px;
+margin-bottom: 80px;
+display: flex;
+justify-content: space-between;
+}
+
+.container > * {
+    width: 60%;
+
+}
+
+.fo{
+    width: 416px;
+}
+
+.formfield{
+width: 100%;
+color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+border: 0;
+border-radius: 10px;
+padding: 11px 24px;
+margin-bottom: 8px;
+}
+
+.butt{
+    border:0;
+border-radius: 10px;
+background-color: #3D3BFF;
+color: white;
+color: #FFF;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding: 11px 54px;
+cursor: pointer;
+margin-top: 24px;
+}
